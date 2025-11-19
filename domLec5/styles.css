@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    user-select: none;
+}
+.divider {
+    width: 2px;
+    height: 85%;
+    background-color: red;
+}

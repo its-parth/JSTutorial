@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles.css">
+     <!-- <link rel="stylesheet" href="./styles.css"> -->
+</head>
+<body>
+    <div id="wrapper" class="flex justify-center items-center">
+        <div class="counter flex bg-white w-40 h-15 border-2 font-bold text-[30px] items-center justify-center">
+            <div id="plus-btn" class="hover:scale-[1.05] cursor-pointer flex-1 flex justify-center items-center transition duration-400">+</div>
+            <div class="divider"></div>
+            <div id="counter-val" class="bg-white flex-1 flex justify-center items-center"></div>
+            <div class="divider"></div>
+            <div onclick="decrement()" id="minus-btn" class="cursor-pointer flex-1 flex justify-center items-center duration-400 hover:scale-[1.05]">-</div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
