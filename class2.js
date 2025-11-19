@@ -16,3 +16,12 @@ for(let value of arr) {
 for(let key of Object.keys(rect)) {
     console.log(key);
 }
+
+// exploring the constructors
+function Rectangle(l, b) {
+    this.length = l;
+    this.breadth = b;
+}
+
+let r1 = new Rectangle(4, 2);
+console.log(r1);
