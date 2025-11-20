@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-midnight: #121063;
+  --color-tahiti: #3ab7bf;
+  --color-bermuda: #78dcca;
+  --font-display: "Mulish", "sans-serif";
+}
+.pass-display::placeholder {
+    color: white;
+}
+.pass-display {
+    user-select: none;
+}
+
+.input-container{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+.pass-display-container{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.default-status {
+    background-color: grey;
+    box-shadow: 0 0 5px 3px;
+    border: 0.2px solid rgba(255, 255, 255, 0.502);
+}
+
+.strong-status {
+    background-color: rgb(44, 181, 44);
+    border: 0.2px solid rgba(0, 86, 26, 0.502);
+    box-shadow: 0 0 5px 3px greenyellow;
+}
+
+.normal-status {
+    background-color: rgb(223, 255, 16);
+    box-shadow: 0 0 5px 3px rgb(161, 161, 0);
+    border: 0.2px solid rgba(47, 50, 19, 0.502);
+}
+
+.weak-status {
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0 0 5px 3px rgb(240, 114, 114);
+    border: 0.2px solid rgba(65, 7, 7, 0.502);
+}
+
+.generate-pass-btn {
+    user-select: none;
+}
